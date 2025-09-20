@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1757455458575,
+    "title": "Test Title for news",
+    "author": "Omari",
+    "date": "September 10, 2025",
+    "excerpt": "Short excerpt for a news that is good",
+    "content": "<p>simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>",
+    "image": "/img/images (1).jpeg"
+  },
+  {
+    "id": 2,
+    "title": "Career Day 2025: Students Meet Tech Professionals",
+    "author": "Mr. Joseph",
+    "date": "August 28, 2025",
+    "excerpt": "Local developers, sysadmins, and data scientists visited to share their journeys. Students got real-world advice and inspiration for their futures.",
+    "content": "<p>Local developers, sysadmins, and data scientists visited to share their journeys. Students got real-world advice and inspiration for their futures.</p>",
+    "image": "/img/IMG_3637-7859.jpg"
+  },
+  {
+    "id": 1,
+    "title": "Annual Tech Innovation Fair a Great Success!",
+    "author": "Ms. Amina",
+    "date": "September 5, 2025",
+    "excerpt": "Our students showcased amazing projects — from AI chatbots to smart home devices. Judges were impressed by the creativity and technical skill on display.",
+    "content": "<p>Our students showcased amazing projects — from AI chatbots to smart home devices. Judges were impressed by the creativity and technical skill on display.</p>",
+    "image": "/img/5ebe06-20150318-protest2.jpg"
+  }
+]
