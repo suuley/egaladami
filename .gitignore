@@ -5,11 +5,6 @@ dist/
 .DS_Store
 ProjectorList
 sampleManifest.json
-EditorView.vue
-EditorView (copy).vue
-EditorView (no img input).vue
-Editor.vue
-Editor (copy).vue
 logs
 *.log
 npm-debug.log*

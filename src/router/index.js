@@ -6,18 +6,12 @@ import HTMLCSSView from '../views/HTMLCSSView.vue'
 import PythonView from '../views/PythonView.vue'
 import JavaScriptView from '../views/JavaScriptView.vue'
 import LinuxView from '../views/LinuxView.vue'
-import EditorView from '../views/EditorView.vue'
 
 const routes = [
   {
     path: '/',
     name: 'home',
     component: HomeView
-  },
-  {
-    path: '/editor',
-    name: 'htmlcss',
-    component: EditorView
   },
   {
     path: '/html-css',
@@ -38,11 +32,6 @@ const routes = [
     path: '/linux',
     name: 'linux',
     component: LinuxView
-  },
-  {
-    path: '/admin/edit-news',
-    name: 'editor',
-    component: EditorView
   }
 ]
 
