@@ -21,7 +21,7 @@
 
     <!-- Hero Header -->
     <header class="hero">
-      <img src="/img/logo.png" alt="School Logo" class="logo" />
+      <img src="/img//img/path1903.png" alt="School Logo" class="logo" />
       <h1>Adami & Egal Coding School</h1>
       <p>Coding & Tech Training for the Community</p>
     </header>
