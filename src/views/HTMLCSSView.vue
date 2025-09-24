@@ -70,19 +70,19 @@
   </template>
   
   <script setup>
- import { ref, onMounted } from 'vue'
+  import { ref, onMounted } from 'vue'
 
-  // State for modal menu
+// State for modal menu
 const menuOpen = ref(false)
 
 const toggleMenu = () => {
-  menuOpen.value = !menuOpen.value
+ menuOpen.value = !menuOpen.value
 }
 
 const closeMenu = () => {
-  menuOpen.value = false
+ menuOpen.value = false
 }
-  </script>
+</script>
   
   <style scoped>
   /* === Global Reset & Fonts === */

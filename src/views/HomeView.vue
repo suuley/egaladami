@@ -13,7 +13,7 @@
     <!-- Full-Screen Modal Navigation -->
     <div v-if="menuOpen" class="modal-nav" @click="closeMenu">
       <div class="modal-content" @click.stop>
-        <router-link to="/html-css" @click="closeMenu">HTML & CSS</router-link>
+        <router-link to="/htmlcss" @click="closeMenu">HTML & CSS</router-link>
         <router-link to="/python" @click="closeMenu">Python</router-link>
         <router-link to="/linux" @click="closeMenu">Linux</router-link>
         <router-link to="/javascript" @click="closeMenu">JavaScript</router-link>

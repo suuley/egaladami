@@ -14,7 +14,7 @@ const routes = [
     component: HomeView
   },
   {
-    path: '/html-css',
+    path: '/htmlcss',
     name: 'htmlcss',
     component: HTMLCSSView
   },
