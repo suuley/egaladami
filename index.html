@@ -16,5 +16,42 @@
   <body>
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
+
+  <!-- Optional: Install button (hidden by default) -->
+  <button id="installBtn" style="display: none;">Install App</button>
+
+  <!-- Install Prompt Script -->
+  <script>
+    let deferredPrompt;
+
+    // 1. Listen for the beforeinstallprompt event
+    window.addEventListener('beforeinstallprompt', (e) => {
+      // Prevent Chrome's default install prompt
+      e.preventDefault();
+      // Save the event for later use
+      deferredPrompt = e;
+      // Show your custom install button
+      const installBtn = document.getElementById('installBtn');
+      if (installBtn) {
+        installBtn.style.display = 'block';
+      }
+    });
+
+    // 2. Handle button click to trigger install
+    if (document.getElementById('installBtn')) {
+      document.getElementById('installBtn').addEventListener('click', async () => {
+        if (deferredPrompt) {
+          // Show the install prompt
+          deferredPrompt.prompt();
+          // Wait for user choice
+          const { outcome } = await deferredPrompt.userChoice;
+          console.log(`User ${outcome === 'accepted' ? 'accepted' : 'dismissed'} install`);
+          // Reset and hide button
+          deferredPrompt = null;
+          document.getElementById('installBtn').style.display = 'none';
+        }
+      });
+    }
+  </script>
   </body>
 </html>
