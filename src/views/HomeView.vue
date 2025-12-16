@@ -25,6 +25,15 @@
       <img src="/img/path1903.png" alt="School Logo" class="logo" />
       <h1>Adami & Egal Coding School</h1>
       <p>Coding & Tech Training for the Community</p>
+      <p>Facebook ama WhatsApp nagala soo xiriir oo fariin dhaaf</p>
+      <div class="social-links" style="margin-top: 10px;">
+  <a href="https://www.facebook.com/share/v/1EzT97cK5j/" target="_blank" rel="noopener noreferrer" style="margin-right: 15px; text-decoration: none; color: #1877f2;">
+    <i class="fab fa-facebook"></i> Facebook
+  </a>
+  <a href="https://wa.me/252614292828" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: #25D366;">
+    <i class="fab fa-whatsapp"></i> WhatsApp
+  </a>
+</div>
     </header>
 
     <!-- Main Content -->
